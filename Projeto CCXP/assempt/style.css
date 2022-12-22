@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: #FFD900;
+    padding:27px 0px 28px 58px;
+}
+main{
+    display: grid;
+    grid-auto-flow: column;
+      
+}
+#mainText{
+    background-color: #514988;    
+    text-align: center;    
+    color: white;
+    max-width: 800px;    
+}
+#mainText h1{
+    color: #F3C61F;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 31px;
+}
+#mainText h3{
+    font-weight: 700px;
+    font-size: 30px;    
+}
+#mainText p{
+    font-size: 25px;
+    padding: 60px 60px 90px 64px;
+}
+#videoCountdown{
+    max-width: 926px;
+    padding-left: 18px;
+    padding-right: 25px;
+}
+#countdown{
+    padding-left: 20px;
+    color: #E33881;   
+}
+#countdown h1{
+    display: inline;
+    margin-right: 35px;        
+    color: #514988;
+    font-weight: 700;
+    font-size: 70px;
+}
+#countdown h3{
+    color: #E33881;
+    font-weight: 700;
+    font-size: 29px;
+    margin-top: 0;
+    margin-bottom: 18px;  
+}
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 35px;
+}
+#dates p{
+    color: #F3C61F;
+    font-weight: 700;
+    font-size: 27px;
+    padding-left: 17px;  
+}
+#botton {
+    margin: 91px 0px 66px 107px;
+}
+#botton button{
+    background-color: #514988;
+    border-radius: 20px;
+    border: 0;
+    width: 596px;
+    height: 148px;
+    color: white;
+    font-weight: 700;
+    font-size: 42px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+#botton button:hover{
+    color: #F3C61F;
+}    
